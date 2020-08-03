@@ -1,0 +1,175 @@
+<html>
+<title> Student Registration Form</title>
+<head>
+<style>
+ body{
+     background-color: #FFFFFF;
+ }
+ table{
+     font-family: sans-serif;
+     color: black;
+     background-color:rgba(28, 24, 83, 0.274);
+ }
+
+
+</style>
+
+
+
+</head>
+<body>
+    <h2><b><i>Student Registration Form</b></i></h2>
+<table>
+
+<!---first Name-->
+
+<tr>
+
+<td>First_Name <br /><br /><br /></td>
+<td><input type="text" name="fname" value="Enter your first name"></td>
+</tr>
+
+<!--last name-->
+<tr>
+
+    <td>Last_Name <br /><br /><br /></td>
+    <td><input type="text" name="lname" value="Enter your last name"></td>
+    </tr>
+<!--password-->
+
+<tr>
+
+    <td>Password <br /><br /><br /></td>
+    <td><input type="password" name="pass" required></td>
+    </tr>
+    <!--conform password-->
+    <tr>
+
+        <td>Conform_Password</td>
+        <td><input type="password" name="pass1" required></td>
+    </tr>
+        <!---Gender-->
+        <tr>
+      <td>Gender <br /><br /><br /></td>
+      <td>
+          Male <input type="radio" name="Gender" value="Male">
+          Female <input type="radio" name="Gender" value="Female">
+      </td> 
+        </tr>
+        <!---Address-->
+
+      <tr>
+    <td>Address <br /><br /><br /> </td>
+     <td><textarea name="Address" rows="4" cols="30"></textarea></td>  
+      </tr>  
+    <!--City-->
+   
+    <tr>
+        <td>City <br /><br /><br /> </td>
+         <td><input type="text" name="City"></td>  
+          </tr>  
+<!--Pincode-->
+
+<tr>
+    <td>Pin code <br /><br /><br /> </td>
+     <td><input type="text" name="pin_code"></td>  
+      </tr>  
+
+     
+<!--Country-->
+
+<tr>
+    <td> Country <br /><br /><br /> </td>
+     <td><input type="text" name="Country" value="Pakistan"></td>  
+      </tr>  
+
+      <!--check box / hobbies-->
+
+      <tr>
+        <td>HOBBIES <br /><br /><br /></td>
+         
+        <td>
+       Cricket
+        <input type="checkbox" name="Hobby_Cricket" value="Cricket" />
+        Singing
+        <input type="checkbox" name="Hobby_Singing" value="Singing" />
+       Reading
+        <input type="checkbox" name="Hobby_Reading" value="Reading" />
+        Travelling
+        <input type="checkbox" name="Hobby_Travelling" value="Travelling" />
+        <br />
+        Others
+        <input type="checkbox" name="Hobby_Other" value="Other">
+        <input type="text" name="Other_Hobby"/>
+        </td>
+        </tr>
+
+        <!--Qualification-->
+        <tr>
+            <td>QUALIFICATION <br /><br /><br /><br /><br /><br /><br /></td>
+             
+            <td>
+                <table>
+                    <tr>
+                      <td align="center"><b>Id.No</b></td>
+                      <td align="center"><b>Examination</b></td>
+                      <td align="center"><b>Board</b></td>
+                      <td align="center"><b>Percentage</b></td>
+                      <td align="center"><b>Year of Passing</b></td>
+                    </tr>
+                 <tr>
+                  <td>1</td>
+                  <td>Class X</td>
+                  <td><input type="text" name="ClassX_Board"></td> 
+                  <td><input type="text" name="ClassX_Percentage"></td>
+                  <td><input type="text" name="ClassX_YrsofPassing"></td>
+                 </tr>
+                 <td>2</td>
+                  <td>Class XII</td>
+                  <td><input type="text" name="ClassXII_Board"></td> 
+                  <td><input type="text" name="ClassXII_Percentage"></td>
+                  <td><input type="text" name="ClassXII_YrsofPassing"></td>
+                 </tr>
+
+                 <td>3</td>
+                 <td>Graduration</td>
+                 <td><input type="text" name="Graduration_Board"></td> 
+                 <td><input type="text" name="Graduration_Percentage"></td>
+                 <td><input type="text" name="Graduratin_YrsofPassing"></td>
+                </tr>
+
+                <td>4</td>
+                <td>Master</td>
+                <td><input type="text" name="Master_Board"></td> 
+                <td><input type="text" name="Master_Percentage"></td>
+                <td><input type="text" name="Master_YrsofPassing"></td>
+               </tr>
+                   </table>
+
+                 <!--course-->
+                 <tr>
+                    <td>COURSES<br />APPLIED FOR</td>
+                    <td>
+                    BCA
+                    <input type="radio" name="Course_BCA" value="BCA">
+                    B.Com
+                    <input type="radio" name="Course_BCom" value="B.Com">
+                    B.Sc
+                    <input type="radio" name="Course_BSc" value="B.Sc">
+                    B.A
+                    <input type="radio" name="Course_BA" value="B.A">
+                    </td>
+                    </tr>  
+
+
+                    <!---Submit / Reset-->
+
+                    <tr>
+
+                        <td><input type="submit" value="submit"> </td>
+                        <td><input type="reset" value="Reset"></td>
+                    </tr>
+</table>
+
+</body>
+</html>
